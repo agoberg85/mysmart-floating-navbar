@@ -1,6 +1,6 @@
 {
   "name": "mysmart-floating-navbar",
-  "version": "1.0.0",
+  "version": "v1.0.0",
   "main": "mysmart-floating-navbar.js",
   "scripts": {
     "build": "rollup -c",
