@@ -1,15 +1,29 @@
 {
   "name": "mysmart-floating-navbar",
   "version": "v1.0.0",
+  "description": "A floating navigation bar card for Home Assistant dashboards.",
   "main": "mysmart-floating-navbar.js",
+  "type": "module",
+  "homepage": "https://github.com/agoberg85/mysmart-floating-navbar",
+  "bugs": {
+    "url": "https://github.com/agoberg85/mysmart-floating-navbar/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agoberg85/mysmart-floating-navbar.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "navigation",
+    "custom-card"
+  ],
+  "author": "agoberg85",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-terser": "^0.4.4",
